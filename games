@@ -1,0 +1,51 @@
+import time
+import random
+name1=input("Enter the name of the player 1:")
+name2=input("Enter the name of the player 2:")
+print("HELLO {} and {}".format(name1,name2))
+print("Computer has fixed five numbers on its own")
+print("You both have 3 choices")
+num=[]
+d=0
+while(num<5):
+    num=random.randint()
+    if (d in num):
+        continue
+    else:
+        num.append(d)
+print (num)
+player1=[]
+player2=[]
+for i in range(3):
+    print(" {} Enter your guess.format(name1)")
+    ans=(int(input))
+    if(ans not in player1 or ans not in player2):
+            player1.appened(ans)
+            if(ans in nums):
+                print("---->CORRECT")
+                S1=S1+1
+            else:
+                print("---->WRONG")
+        print(" {} Enter your guess".format(name2)")
+        ans=(int(input))
+        if(ans not in player1 or ans not in player2):
+            player1.appened(ans)
+            if(ans in nums):
+                print("---->CORRECT")
+                S2=S2+1
+            else:
+                print("---->WRONG")
+time.sleep
+    ans=(int(input)if its already chosen,try someother)
+    print(".........")
+    print("let have a summary")
+    print("comp has",num)
+    print("{} predicted score{}".format(name1,player1)
+    print("{}score is {}".format(name2,player2))
+    print("........")
+    if (s1>s2):
+        print("{} is winner".format(name1))
+    else(s2>s1):
+        print:("{} is winnner".format(name2))
+    else:
+        print("DREAWN")
