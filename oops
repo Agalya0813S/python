@@ -1,0 +1,12 @@
+class simple:
+    def add(self,a,b):
+        self.a=a
+        self.b=b
+        return self.a + self.b
+    def dis(self):
+        print("RCB is Won")
+        
+s=simple()
+a=10
+b=20
+print(s.add(a,b))
