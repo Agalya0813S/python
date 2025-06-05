@@ -1,0 +1,5 @@
+file=open("My inspiration-ganeshkumar.txt", "w")
+file.write("Vijay is doing final year eng \n")
+file.write("Now he is in training \n")
+file.close()
+print("Content written to VIJAY.txt successfully.")
