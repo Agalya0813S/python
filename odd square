@@ -1,0 +1,2 @@
+odd_squares=[x*x for x in range(100) if x%3==0]
+print(odd_squares)
