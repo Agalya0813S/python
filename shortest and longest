@@ -1,0 +1,8 @@
+def print_hello_world(times):
+    """print 'Hello world' the given number of times"""
+    for i in range(times):
+        print("Hello World")
+
+number=int(input("Enter a number:"))
+print_hello_world(number)
+
