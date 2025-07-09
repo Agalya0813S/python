@@ -1,0 +1,21 @@
+def find_shortest_and_longest(words):
+    """Return shortest and longest word from the list."""
+    if not words:
+        return None, None  
+        
+    shortest = min(words, key=len)
+    longest = max(words, key=len)
+    
+    return shortest, longest
+
+
+word_list = ["apple", "banana", "pear", "grape", "watermelon"]
+
+shortest_word, longest_word = find_shortest_and_longest(word_list)
+
+if shortest_word and longest_word:
+    print("Shortest word:", shortest_word)
+    print("Longest word:", longest_word)
+else:
+    print("The list was empty.")
+
