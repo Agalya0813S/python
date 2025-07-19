@@ -1,0 +1,5 @@
+height=5
+base=6
+
+area_of_triangle=0.5*height*base
+print(area_of_triangle)
