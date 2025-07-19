@@ -1,0 +1,5 @@
+km=10
+
+miles=km*0.621371
+
+print(f'{km} kilometres is equal to {miles} miles')
