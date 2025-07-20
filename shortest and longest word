@@ -1,0 +1,15 @@
+def find_shortest_and_longest(word):
+    if not word:
+        return none,none
+    
+    shortest=min(word, key=len)
+    largest=max(word, key=len)
+    
+    return shortest,largest 
+    
+word_list=["Python","appe","ai","apple"]
+shortest,longest=find_shortest_and_longest(word_list)
+print(f"{shortest} is the shortest word")
+print(f"{longest} is the longest word")
+
+    
