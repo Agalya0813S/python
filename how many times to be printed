@@ -1,0 +1,10 @@
+def greet_user():
+    # Ask the user for a number
+    count = int(input("Enter how many times you want to print 'Hello, World': "))
+
+    # Loop that prints 'Hello, World' count times
+    for i in range(count):
+        print("Hello, World")
+
+# Call the function
+greet_user()
