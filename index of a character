@@ -1,0 +1,5 @@
+def idx2let(i):
+    return chr(96+i) if 1<=i <=26 else"out of range"
+print(idx2let(1))
+print(idx2let(3))
+print(idx2let(27))
