@@ -1,0 +1,5 @@
+full_name=input("please enter your full name:")
+
+letter_count=len(full_name.replace(" "," "))
+
+print(f"Hello,{full_name}! your name has {letter_count}")
