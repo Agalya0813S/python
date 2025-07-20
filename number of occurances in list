@@ -1,0 +1,7 @@
+def count_occurances(lst, value):
+    return lst.count(value)
+    
+number=[1,2,3,4,2,3,4,1]
+target=2
+result=count_occurances(number,target)
+print(result)
