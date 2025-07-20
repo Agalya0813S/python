@@ -1,0 +1,4 @@
+list1="hello"
+list2="world"
+merged=list1 +" "+ list2
+print(merged)
