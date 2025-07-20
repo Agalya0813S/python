@@ -1,0 +1,8 @@
+my_name="Aa"
+my_age="20"
+my_degree="BCA-Cyber security"
+favourite_food="bhiriyani"
+favourite_actor="nicole_wallace"
+
+print(f"my name is {my_name} ,i'm {my_age}-years-old,i'm persuing {my_degree} ")
+print(f"my favourite food is {favourite_food} and favourite actor is {favourite_actor} ")
