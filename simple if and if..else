@@ -1,0 +1,11 @@
+age = 18
+has_license='no'
+
+
+if age >= 18:
+    if has_license == ('yes'):
+        print('You are eligibile')
+    else:
+        print('go take license')
+else:
+    print('You are not eigibile')
