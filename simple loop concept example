@@ -1,0 +1,7 @@
+correct_pin = "1234"
+entered_pin = " "
+
+for entered_pin in correct_pin:
+    enter=int(input("Enter your pin number:"))
+else:
+    print("Pin is correct")
