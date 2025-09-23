@@ -1,0 +1,15 @@
+class Employee:
+
+    def __init__(self,fname,aadharcard):
+        self.fname=fname
+        self.aadharcard=aadharcard
+
+    def enter_office(self):
+        print(f"{self.fname} enters using {self.aadharcard}")
+
+    def open_bank_account(self):
+        print(f"Bank account is opened for {self.fname} with their {self.aadharcard}")
+
+Emp1=Employee(fname="Agalya",aadharcard=123056789012)
+Emp1.enter_office()
+Emp1.open_bank_account()
