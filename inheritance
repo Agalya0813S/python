@@ -1,0 +1,13 @@
+class dad:
+
+    def house(self):
+        print("iam from dad class")
+
+class son(dad):
+
+    def factory(self):
+        print("iam from son class")
+
+s=son()
+s.house()
+s.factory()
