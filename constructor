@@ -1,0 +1,11 @@
+class student:
+
+    def __init__(self,fname,age):
+        self.x=fname
+        self.y=age
+
+    def display(self):
+        print(f"name: {self.x}, age: {self.y}")
+
+s1=student(fname="Agalya",age=20)
+s1.display()
