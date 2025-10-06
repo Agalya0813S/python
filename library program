@@ -1,0 +1,20 @@
+from datetime import datetime, timedelta
+
+issue = input("Enter issue date (YYYY-MM-DD): ")
+return_ = input("Enter return date (YYYY-MM-DD): ")
+
+issue_date = datetime.strptime(issue, "%Y-%m-%d")
+return_date = datetime.strptime(return_, "%Y-%m-%d")
+due_date = issue_date + timedelta(days=14)
+
+late_days = (return_date - due_date).days
+fine = max(0, late_days - 2) * 5
+
+print("Due Date     :", due_date.date())
+print("Return Date  :", return_date.date())
+print("Late Days    :", max(0, late_days))
+print("Fine Amount  : ₹", fine)
+
+
+
+        
